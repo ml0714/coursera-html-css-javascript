@@ -1,0 +1,90 @@
+body {
+    font-size: 16px;
+    font-family: "Comic Neue", cursive;
+}
+
+/* HEADER */
+#header-nav {
+    background-color: lightgrey;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header {
+    height: 75px;
+}
+
+.navbar-brand {
+    padding: 25px;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+#Chicken-section {
+    background-color: lightgrey;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: fit-content;
+    overflow: hidden;
+}
+#content-title {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 1.25em;
+}
+/* END MAIN CONTENT */
+
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    #collapsable-nav {
+        width: 100%;
+    }
+
+    #collapsable-nav a { 
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+     #collapsable-nav a:hover {
+        background-color: whitesmoke;
+    }
+    /*End Header */
+
+    /* Main Content */
+    #Chicken-section {
+        background-color: lightgrey;
+        padding: 10px 20px 10px 20px;
+        margin-top: 10px;
+    }
+    /* End Main Content */
+}

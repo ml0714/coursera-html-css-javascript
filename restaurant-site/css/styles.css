@@ -57,7 +57,7 @@ body {
 #nav-list a:hover {
     background: #E7E7E7;
 }
-#nav-list a span {
+#nav-list a i {
     font-size: 1.8em;
 }
   
@@ -291,10 +291,13 @@ h3.menu-item-title {
       height: 20px;
     }
   
+    #collapsable-nav {
+        width: 100%;
+    }
     #collapsable-nav a { /* Collapsed nav menu text */
       font-size: 1.2em;
     }
-    #collapsable-nav a span { /* Collapsed nav menu glyph */
+    #collapsable-nav a i { /* Collapsed nav menu glyph */
       font-size: 1em;
       margin-right: 5px;
     }
